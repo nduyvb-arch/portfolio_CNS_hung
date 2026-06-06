@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Cá Nhân | Phạm Văn Hùng</title>
+    <meta name="description" content="Digital Portfolio của Phạm Văn Hùng (MSSV: 25070184) - Môn Nhập môn Công nghệ số và Ứng dụng Trí tuệ nhân tạo.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <!-- FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Background Elements -->
+    <div class="bg-shape shape-1"></div>
+    <div class="bg-shape shape-2"></div>
+    <div class="bg-shape shape-3"></div>
+
+    <!-- Header / Navigation -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="#home" class="logo">PV<span>H</span></a>
+            <div class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+            <nav class="nav-menu" id="nav-menu">
+                <ul>
+                    <li><a href="#home" class="nav-link active">Giới thiệu</a></li>
+                    <li><a href="#projects" class="nav-link">Dự án</a></li>
+                    <li><a href="#summary" class="nav-link">Tổng kết</a></li>
+                </ul>
+            </nav>
+            <div class="theme-toggle">
+                <i class="fas fa-moon" id="theme-btn"></i>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Section: Home / Introduction -->
+        <section id="home" class="hero section">
+            <div class="container hero-container">
+                <div class="hero-content" data-aos="fade-up">
+                    <span class="greeting">Xin chào, tôi là</span>
+                    <h1 class="title">Phạm Văn Hùng</h1>
+                    <h2 class="subtitle">Sinh viên Trường Quốc tế - ĐHQGHN</h2>
+                    <p class="student-id"><i class="fas fa-id-card"></i> MSSV: 25070184</p>
+                    
+                    <div class="intro-text">
+                        <p>Chào mừng bạn đến với <strong>Portfolio Kỹ thuật số</strong> của tôi! Đây là không gian tôi tổng hợp và thể hiện những kiến thức, kỹ năng đã học được từ môn <em>"Nhập môn Công nghệ số và Ứng dụng Trí tuệ nhân tạo"</em>.</p>
+                        
+                        <div class="goals-container">
+                            <div class="goal-box">
+                                <h3><i class="fas fa-bullseye"></i> Mục tiêu học tập</h3>
+                                <p>Phát triển tư duy công nghệ, nắm bắt các công cụ số và áp dụng Trí tuệ nhân tạo (AI) một cách sáng tạo và có trách nhiệm vào việc học tập, làm việc.</p>
+                            </div>
+                            <div class="goal-box">
+                                <h3><i class="fas fa-rocket"></i> Mục tiêu Portfolio</h3>
+                                <p>Thể hiện các kỹ năng số đã học một cách trực quan, đồng thời lưu trữ sản phẩm cá nhân để dễ dàng truy cập và chia sẻ với mọi người trong tương lai.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="hero-cta">
+                        <a href="#projects" class="btn btn-primary">Xem Dự án <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="hero-image" data-aos="fade-left">
+                    <div class="image-wrapper">
+                        <!-- Placeholder for a personal image or an illustration -->
+                        <div class="abstract-avatar">
+                            <i class="fas fa-user-graduate"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section: Projects -->
+        <section id="projects" class="projects section">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <h2>Các Bài Tập <span>Dự Án</span></h2>
+                    <p>Tổng hợp các bài tập cá nhân từ Tuần 1 đến Tuần 6 đã hoàn thành trong khóa học.</p>
+                </div>
+
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="project-icon"><i class="fas fa-folder-open"></i></div>
+                        <div class="project-content">
+                            <h3>Tuần 1: Thao tác cơ bản</h3>
+                            <p class="task-desc">Thao tác cơ bản với tệp tin và thư mục. Trình bày cấu trúc thư mục tối ưu và quy tắc đặt tên tệp đã thiết lập.</p>
+                            <div class="project-links">
+                                <a href="assets/docs/w1 1.docx" class="btn btn-sm btn-outline" download><i class="fas fa-download"></i> Tải .docx</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="project-icon"><i class="fas fa-search"></i></div>
+                        <div class="project-content">
+                            <h3>Tuần 2: Tìm kiếm & Đánh giá</h3>
+                            <p class="task-desc">Tìm kiếm và đánh giá thông tin học thuật. Trình bày kết quả tìm kiếm bằng toán tử nâng cao và đánh giá nguồn tin.</p>
+                            <div class="project-links">
+                                <a href="assets/docs/w2.pdf" class="btn btn-sm btn-outline" target="_blank"><i class="fas fa-file-pdf"></i> Xem PDF</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="project-card" data-aos="fade-up" data-aos-delay="300">
+                        <div class="project-icon"><i class="fas fa-pen-nib"></i></div>
+                        <div class="project-content">
+                            <h3>Tuần 3: Viết Prompt hiệu quả</h3>
+                            <p class="task-desc">Viết Prompt hiệu quả cho các tác vụ học tập. So sánh Prompt ban đầu và Prompt cải tiến cùng kết quả đầu ra từ AI.</p>
+                            <div class="project-links">
+                                <a href="assets/docs/w3.pdf" class="btn btn-sm btn-outline" target="_blank"><i class="fas fa-file-pdf"></i> Xem PDF</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 4 -->
+                    <div class="project-card" data-aos="fade-up" data-aos-delay="400">
+                        <div class="project-icon"><i class="fas fa-users"></i></div>
+                        <div class="project-content">
+                            <h3>Tuần 4: Hợp tác trực tuyến</h3>
+                            <p class="task-desc">Sử dụng công cụ hợp tác trực tuyến cho dự án nhóm. Minh chứng sử dụng công cụ quản lý và phối hợp trực tuyến.</p>
+                            <div class="project-links">
+                                <a href="assets/docs/w4.docx" class="btn btn-sm btn-outline" download><i class="fas fa-download"></i> Tải .docx</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 5 -->
+                    <div class="project-card" data-aos="fade-up" data-aos-delay="500">
+                        <div class="project-icon"><i class="fas fa-robot"></i></div>
+                        <div class="project-content">
+                            <h3>Tuần 5: AI tạo sinh</h3>
+                            <p class="task-desc">Sử dụng AI tạo sinh để hỗ trợ sáng tạo nội dung. Trưng bày sản phẩm nội dung số hoàn thiện được hỗ trợ bởi AI.</p>
+                            <div class="project-links">
+                                <a href="assets/docs/w5.pdf" class="btn btn-sm btn-outline" target="_blank"><i class="fas fa-file-pdf"></i> Xem PDF</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 6 -->
+                    <div class="project-card" data-aos="fade-up" data-aos-delay="600">
+                        <div class="project-icon"><i class="fas fa-balance-scale"></i></div>
+                        <div class="project-content">
+                            <h3>Tuần 6: AI có trách nhiệm</h3>
+                            <p class="task-desc">Sử dụng AI có trách nhiệm trong học tập. Trình bày bộ nguyên tắc cá nhân về sử dụng AI có trách nhiệm.</p>
+                            <div class="project-links">
+                                <a href="assets/docs/w6 1.pdf" class="btn btn-sm btn-outline" target="_blank"><i class="fas fa-file-pdf"></i> Xem PDF</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Section: Summary -->
+        <section id="summary" class="summary section">
+            <div class="container">
+                <div class="summary-wrapper" data-aos="zoom-in">
+                    <div class="section-header text-center">
+                        <h2>Tổng <span>Kết</span></h2>
+                        <p>Nhìn lại hành trình học tập và xây dựng Portfolio</p>
+                    </div>
+
+                    <div class="summary-content">
+                        <div class="reflection-box">
+                            <div class="icon-header">
+                                <i class="fas fa-star"></i>
+                                <h3>Kiến thức & Kỹ năng tâm đắc</h3>
+                            </div>
+                            <p>Khóa học đã giúp tôi làm quen và làm chủ nhiều công cụ số hiện đại. Tâm đắc nhất là việc học cách <strong>giao tiếp với AI (Prompt Engineering)</strong> và biết cách sử dụng AI một cách có trách nhiệm. Nó không chỉ giúp tôi giải quyết các bài tập nhanh chóng mà còn khơi gợi tư duy phản biện khi tiếp nhận thông tin từ AI.</p>
+                        </div>
+
+                        <div class="reflection-box">
+                            <div class="icon-header">
+                                <i class="fas fa-heart"></i>
+                                <h3>Trải nghiệm cá nhân</h3>
+                            </div>
+                            <p>Quá trình tự tay tổng hợp các bài tập vào một Portfolio trực tuyến là một trải nghiệm tuyệt vời. Nó giúp tôi hệ thống hóa lại toàn bộ kiến thức, nhận ra sự tiến bộ của bản thân qua từng tuần học, và đặc biệt là rèn luyện được kỹ năng thiết kế, tổ chức thông tin trực quan, chuyên nghiệp.</p>
+                        </div>
+
+                        <div class="reflection-box">
+                            <div class="icon-header">
+                                <i class="fas fa-mountain"></i>
+                                <h3>Khó khăn & Bài học</h3>
+                            </div>
+                            <p>Ban đầu, việc chọn lọc và sắp xếp một lượng lớn thông tin vào một không gian giới hạn khá khó khăn. Bài học lớn nhất là cách tư duy "cấu trúc hóa": biết phân tích vấn đề thành các phần nhỏ, lập kế hoạch rõ ràng và sử dụng đúng công cụ để tối ưu hóa quy trình làm việc nhóm và cá nhân.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-container">
+            <div class="footer-info">
+                <h3>Phạm Văn Hùng</h3>
+                <p>Digital Portfolio - 2026</p>
+            </div>
+            <div class="footer-links">
+                <a href="mailto:hung25070184@vnu.edu.vn" class="social-icon"><i class="fas fa-envelope"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Phạm Văn Hùng. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
